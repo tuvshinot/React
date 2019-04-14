@@ -5,6 +5,13 @@
     padding: 10px 20px;
     border: 1px solid #eee;
     box-shadow: 0 2px 3px #ccc;
+    transition: all .2s linear;
+}
+
+.Person:hover {
+    cursor: pointer;
+    transform: translateX(-10px);
+    z-index: 10;
 }
 
 .Person input {
