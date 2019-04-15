@@ -1,10 +1,36 @@
 .App {
   text-align: center;
 }
-.red {
+.Red {
   color:red;
 }
 
-.bold {
+.Bold {
   font-weight: bold;
+}
+
+.App button {
+  border:none;
+  padding: 10px 20px;
+  border-radius:10px;
+  box-shadow:0 2px 3px #ccc;
+  cursor:pointer;
+  outline:none;
+  color:white;
+  background-color:green;
+}
+
+.App button:hover {
+  color:black;
+  background-color:lightgreen;
+  cursor: pointer;
+}
+
+.App button.Red {
+  background-color: red;
+}
+
+.App button.Red:hover {
+  background-color: salmon;
+  color: black;
 }
