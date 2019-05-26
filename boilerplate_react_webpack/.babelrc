@@ -1,0 +1,18 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "targets" : {
+                "browsers":[
+                    "> 1%",
+                    "last 2 versions"
+                ]
+            }
+        }],
+        "@ava/babel-preset-stage-4",
+        "@babel/react"
+    ],
+    "plugins": [
+        "syntax-dynamic-import",
+        "@babel/plugin-proposal-class-properties"
+    ]
+}
